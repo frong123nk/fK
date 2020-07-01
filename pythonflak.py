@@ -5,6 +5,6 @@ app = Flask(__name__)
 def hello_world():
     return "Hello Updated World!"
 
-if _name_ == '_main_':
+if __name__ == '_main_':
     app.debug = True
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=22, debug=True)
